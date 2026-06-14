@@ -46,7 +46,7 @@ official sources and cited in the notebook.
 | 2026 squads (1,248 players) | Wikipedia: *2026 FIFA World Cup squads* | real 26-man squad features |
 
 > The large CSVs are **not committed** to this repo (they're public on Kaggle). See
-> [`data/README.md`](data/README.md) for how to fetch them.
+> README_Kaggle.md for how to fetch them.
 
 ---
 
@@ -66,7 +66,7 @@ official sources and cited in the notebook.
 2. **Add Input** → attach the four Kaggle datasets in the table above.
 3. **Run All** (XGBoost is pre-installed on Kaggle; full run ≈ 3–6 min on CPU).
 
-Full walkthrough: [`docs/KAGGLE_STEP_BY_STEP_GUIDE.md`](docs/KAGGLE_STEP_BY_STEP_GUIDE.md).
+Full walkthrough: docs/KAGGLE_STEP_BY_STEP_GUIDE.md
 
 ### Locally
 ```bash
@@ -116,4 +116,4 @@ fifa-wc-2026-predictor/
 Built with Python, pandas, scikit-learn, XGBoost and matplotlib.
 
 ## License
-MIT — see [LICENSE](LICENSE). Underlying datasets remain under their own licenses (see Kaggle pages).
+MIT — see (LICENSE.md). Underlying datasets remain under their own licenses (see Kaggle pages).
