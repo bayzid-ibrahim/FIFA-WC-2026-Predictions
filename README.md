@@ -7,7 +7,8 @@ each team's odds of advancing and lifting the trophy.
 Built as a portfolio project — the emphasis is on **transparent, reproducible, honestly-
 caveated** modelling rather than a black box.
 
-![Predicted bracket](outputs/wc2026_predicted_bracket.png)
+<img width="2326" height="1837" alt="wc2026_predicted_bracket" src="https://github.com/user-attachments/assets/7ee24f2e-de93-4dc5-b4e8-d557b270dee2" />
+
 
 > **Model's verdict:** Spain are favourites (~25% to win), with a **Spain–Argentina final**;
 > France, England and Brazil round out the top contenders.
