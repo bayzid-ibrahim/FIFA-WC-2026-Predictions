@@ -109,4 +109,4 @@ The forecast files were produced in June 2026 by an earlier version of the noteb
 Built with Python, pandas, scikit-learn, XGBoost and matplotlib.
 
 ## License
-MIT — see (LICENSE.md). Underlying datasets remain under their own licenses (see Kaggle pages).
+MIT — see (LICENSE). Underlying datasets remain under their own licenses (see Kaggle pages).
