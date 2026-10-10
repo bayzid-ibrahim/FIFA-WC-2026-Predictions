@@ -52,10 +52,10 @@ official sources and cited in the notebook.
 
 ## Results
 
-- `outputs/wc2026_group_match_predictions.csv` — all 72 group matches (win/draw/loss %, expected goals, scoreline, predicted winner)
-- `outputs/wc2026_tournament_probabilities.csv` — per-team odds (win cup / reach final / reach semi)
-- `outputs/wc2026_predicted_bracket.png` — the predicted knockout bracket
-- `outputs/wc2026_squads_reference.csv` — the parsed official squads (player, position, caps, club)
+- `wc2026_group_match_predictions.csv` — all 72 group matches (win/draw/loss %, expected goals, scoreline, predicted winner)
+- `wc2026_tournament_probabilities.csv` — per-team odds (win cup / reach final / reach semi)
+- `wc2026_predicted_bracket.png` — the predicted knockout bracket
+- `wc2026_squads_reference.csv` — the parsed official squads (player, position, caps, club)
 
 ---
 
