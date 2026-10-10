@@ -54,28 +54,24 @@ official sources and cited in the notebook.
 
 - `wc2026_group_match_predictions.csv` — all 72 group matches (win/draw/loss %, expected goals, scoreline, predicted winner)
 - `wc2026_tournament_probabilities.csv` — per-team odds (win cup / reach final / reach semi)
-- `wc2026_predicted_bracket.png` — the predicted knockout bracket
-- `wc2026_squads_reference.csv` — the parsed official squads (player, position, caps, club)
 
 ---
 
 ## How to run
 
 ### On Kaggle (recommended — datasets attach in one click)
-1. Create a new notebook and import `notebook/WC2026_Prediction_Model.ipynb`.
+1. Create a new notebook and import `WC2026_Prediction_Model.ipynb`.
 2. **Add Input** → attach the four Kaggle datasets in the table above.
 3. **Run All** (XGBoost is pre-installed on Kaggle; full run ≈ 3–6 min on CPU).
 
-Full walkthrough: docs/KAGGLE_STEP_BY_STEP_GUIDE.md
+Full walkthrough: `KAGGLE_STEP_BY_STEP_GUIDE.md`
 
 ### Locally
 ```bash
-pip install -r requirements.txt
-# download the four datasets from Kaggle into a ./data folder (see data/README.md)
-jupyter notebook notebook/WC2026_Prediction_Model.ipynb
+pip install numpy pandas scipy scikit-learn xgboost matplotlib
+# download the Kaggle datasets into this folder (see README_Kaggle.md)
+jupyter notebook WC2026_Prediction_Model.ipynb
 ```
-The notebook's path resolver checks `/kaggle/input/...` first, then the working directory,
-so the same file runs in both places.
 
 ---
 
