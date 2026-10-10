@@ -99,6 +99,10 @@ write-up on purpose: the process matters as much as the result.
 
 ---
 
+## Replicating the June 2026 forecasts
+
+The forecast files were produced in June 2026 by an earlier version of the notebook (it differed in neutral-venue handling and knockout bracket seeding). replicate_june_predictions.py regenerates both files exactly from the results dataset as it stood on 11 June 2026, and reproduces the evaluation reported in the paper.
+
 ## Repo structure
 ```
 fifa-wc-2026-predictor/
